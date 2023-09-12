@@ -977,7 +977,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width:1600px) {
     .pa1 {
-        line-height: 40px;
+        line-height: 50px;
         font-size: 26px;
     }
 
@@ -991,7 +991,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .mImages {
-        margin-top: 2rem !important;
+        margin-top: 4rem !important;
+        height: 560px !important;
     }
 
     .image {
