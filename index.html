@@ -51,7 +51,7 @@
         <div id="intro">
           <div class="px-2 mx-2 px-md-5 mx-md-5">
             <div class="row mt-1 mt-md-5">
-              <div class="col-md-7 pt-4">
+              <div class="col-md-7 col7 ">
 
                 <p class="hea1 mt-4 mb-0 mb-md-1 " data-aos="fade-up" data-aos-duration="1500">AI-powered Automation</p>
                 <p class="hea1 " data-aos="fade-up">for your clinical assessments</p>
@@ -82,7 +82,7 @@
 
               <div class="col-md-5">
 
-                <img class="img-fluid heroimaage" src="./assets/images/Hero.png" alt="" data-aos="fade-up"
+                <img class="imghero " src="./assets/images/Hero.png" alt="" data-aos="fade-up"
                   data-aos-duration="1500">
 
 
@@ -815,7 +815,7 @@ var isMobile = window.innerWidth <= 600;
 var horzScene = new ScrollMagic.Scene({
   triggerElement: "#process",
   triggerHook: 0,
-  duration: isMobile ? "150%" : "300%", // Adjusted duration based on screen size
+  duration: isMobile ? "200%" : "400%", // Adjusted duration based on screen size
 })
   .setTween(horzTl)
   .setPin("#process")
@@ -825,7 +825,7 @@ var horzScene = new ScrollMagic.Scene({
 var processScene = new ScrollMagic.Scene({
   triggerElement: "#process",
   triggerHook: 0,
-  duration: isMobile ? "150%" : "230%", // Adjusted duration based on screen size
+  duration: isMobile ? "200%" : "300%", // Adjusted duration based on screen size
 })
   .setTween(processTl)
   .addTo(controller);
@@ -873,7 +873,7 @@ talkTl.set("#process-wrap", {
 });
 
   </script>
-  <script>
+  <!-- <script>
     var tt = gsap.timeline({ repeat: -1, repeatDelay: 1 });
 
     tt.to("#mastermind", {
@@ -881,7 +881,7 @@ talkTl.set("#process-wrap", {
       strokeDashoffset: 0.1,
       ease: "easeInOut",
     });
-  </script>
+  </script> -->
   <!-- for navbar fixed -->
   <script>
       const navbar = document.querySelector('.navbar');

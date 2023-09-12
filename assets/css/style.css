@@ -118,7 +118,7 @@
     font-size: 43px;
     font-style: normal;
     font-weight: var(--h1-font-weight);
-    line-height: 44px;
+    line-height: 49px;
     /* 179.167% */
     letter-spacing: -1px;
     background: linear-gradient(180deg, #409BDC 0%, #1D3342 100%);
@@ -801,7 +801,7 @@
     .wrap {
         display: flex;
         height: 100%;
-        justify-content: center;
+        justify-content: start;
         align-content: center;
         flex-direction: column;
         max-width: 100%;
@@ -974,16 +974,21 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid slategrey;
 }
 
+.imghero {
+    width: 100%;
+    height: auto;
+}
 
 @media (min-width:1600px) {
     .pa1 {
-        line-height: 50px;
+        line-height: normal;
         font-size: 26px;
     }
 
     .hea1 {
         font-size: 50px;
-        margin-bottom: 2rem !important;
+        /* margin-bottom: 2rem !important; */
+        padding-bottom: 20px;
     }
 
     .reqButtns {
@@ -1000,6 +1005,14 @@ body::-webkit-scrollbar-thumb {
     }
 
     .image {
+        width: 700px;
+    }
+
+    .col7 {
+        margin-top: 3rem;
+    }
+
+    .imghero {
         width: 700px;
     }
 }
