@@ -992,7 +992,11 @@ body::-webkit-scrollbar-thumb {
 
     .mImages {
         margin-top: 4rem !important;
-        height: 560px !important;
+
+    }
+
+    .heroimaage {
+        width: 600px;
     }
 
     .image {
