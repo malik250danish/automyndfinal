@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+/* contact us url for some fonts  */
+ 
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+ 
+/* contact us url for some fonts  */
+
+:root {
+    /* font-sixe */
+    --nav-li-font-size: 22px;
+    --h1-font-size: 48px;
+    --h2-font-size: 32px;
+    --h3-font-size: 20px;
+    --para1-font-size: 22px;
+    --button-font-size: 19px;
+    --business-font-size: 35px;
+    --business-card-font-size: 26px;
+    --frequently-font-size: 50px;
+    --card-para2-font-size: 22px;
+    --cdi-font-size: 24px;
+    --team-font-size: 54px;
+    --footer-li-font-size: 16px;
+    --payroll-li-font-size: 28px;
+    --get-started-font-size: 14px;
+    /* font size end */
+
+    /* color */
+    --input-color: #66707C;
+    --get-started-background: #000;
+    --card-heading-color: #0F172A;
+    --card-para-color: #263238;
+    --content-para-color: #616468;
+    --h1-color: #409BDC;
+    --para1-color: #0A1533;
+    --button-background: #357BAD;
+    --button-text-color: #FFF;
+    --button2-color: ##000000;
+    --nav-button-background: #0A1533;
+    --frequently-h1-color: #263238;
+    --learn-background: linear-gradient(180deg, rgba(0, 0, 0, 0.93) 0%, #44A9F1 99.99%, #2563EB 100%);
+    --unlock-section-background: linear-gradient(180deg, rgba(202, 226, 249, 0.00) 0%, rgba(255, 240, 251, 0.45) 50.52%, #81BEEA 100%);
+    --unlock-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -image-section-background: linear-gradient(90deg, #FDF3E0 0%, rgba(255, 240, 251, 0.45) 33.85%, rgba(32, 90, 144, 0.00) 96.35%);
+    --image-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    --nav-background: var(--Sky-gradient, linear-gradient(180deg, #81BEEA 0%, rgba(255, 240, 251, 0.45) 50.52%, rgba(202, 226, 249, 0.00) 100%));
+    /* color end */
+
+
+    /* font weight */
+    --h2-font-weight: 700;
+    --h1-font-weight: 600;
+    --frequently-font-weight: 800;
+    --para2-font-weight: 400;
+    --nav-li-font-weight: 400;
+
+    /* font weight */
+
+
+
+}
+.chatHead{
+    font-family: Montserrat;
+    font-size: var(--h1-font-size);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 86px; /* 179.167% */
+    letter-spacing: -1px;
+    background: var(--learn-background);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.margDiv{
+margin-left: -70px !important;
+}
+.conactTxt{
+    color: var(--get-started-background) !important;
+font-family: IBM Plex Mono !important;
+font-size: var( --h3-font-size) !important;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.emailTxt{
+    font-family: Noe Display;
+font-size: var(   --h2-font-size) !important;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: var(--learn-background);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.beebs{
+    font-family: Poppins;
+font-size: var( --footer-li-font-size) !important;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: var(--learn-background);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.socialTxt{
+    font-family: Noe Display;
+font-size: var(--h2-font-size) !important;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: var(--learn-background);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.linkedIn{
+    color: var(   --get-started-background) !important;
+font-family: Poppins;
+font-size: var(--footer-li-font-size) !important;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+.chatimg{
+    height: 50px !important;
+    mix-blend-mode: darken !important;
+}
+.inBorder{
+    border: none !important;
+    outline: none !important;
+    background-color:var( --button-text-color) !important ;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 0px !important;
+}
+.inBorder:focus{
+    border: none !important;
+    outline: none !important;
+    /* box-shadow: none !important; */
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 0px !important;
+}
+.textClass{
+    border: none !important;
+    outline: none !important;
+    background-color:var( --button-text-color) !important ;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 0px !important;
+}
+.textClass:focus{
+    border: none !important;
+    outline: none !important;
+    /* box-shadow: none !important; */
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 0px !important;
+
+}
+.nameLab{
+    color: var(--get-started-background);
+    font-family: IBM Plex Mono !important;
+font-size:  var(--h3-font-size) !important;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.org::placeholder{
+    color: #B2B2B2 !important;
+font-family: Poppins !important;
+font-size: 14px !important;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+
+
+.conatctBg{
+    background: linear-gradient(180deg, rgba(202, 226, 249, 0.00) 0%, rgba(255, 240, 251, 0.45) 50.52%, #81BEEA 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}   
+.subBtn{
+    background: var( --learn-background) !important;
+    color: var( --button-text-color);
+font-family: Poppins !important;
+font-size: var(    --h3-font-size);
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+/* media query  */
+@media screen and (max-width: 576px) {
+   .chatimg{
+    display: none !important;
+   }
+   .margDiv{
+    margin-left: 0px !important;
+    }
+    
+}
+/* media query  */
