@@ -759,15 +759,16 @@
         height: 100%;
     }
 }
-@media(min-width:992px)
-{
-    .secondcontent{
-    position: relative;
-    top: 300px;
-    padding-bottom: 10px;
-    
+
+@media(min-width:992px) {
+    .secondcontent {
+        position: relative;
+        top: 300px;
+        padding-bottom: 10px;
+
+    }
 }
-}
+
 #talk {
 
     /* // height:100vh; */
@@ -982,9 +983,9 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid slategrey;
 }
 
-.imghero {
-    width: 100%;
-    height: auto;
+.imghero svg {
+    width: 100% !important;
+    height: auto !important;
 }
 
 @media (min-width:1600px) {
@@ -1025,4 +1026,8 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-
+@media(max-width:380px) {
+    .rowBg2 {
+        margin-top: 10rem !important;
+    }
+}
