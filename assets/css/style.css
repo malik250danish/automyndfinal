@@ -1062,4 +1062,8 @@ body::-webkit-scrollbar-thumb {
     .scrollS {
         padding-left: 0rem !important;
     }
+
+    .pin-spacer {
+        height: 100%;
+    }
 }
