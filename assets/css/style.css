@@ -1058,4 +1058,8 @@ body::-webkit-scrollbar-thumb {
         padding-top: 6rem;
         padding-left: 0rem;
     }
+
+    .scrollS {
+        padding-left: 0rem !important;
+    }
 }
