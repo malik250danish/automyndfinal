@@ -761,12 +761,12 @@
 }
 
 @media(min-width:992px) {
-    .secondcontent {
+    /* .secondcontent {
         position: relative;
         top: 300px;
         padding-bottom: 10px;
 
-    }
+    } */
 }
 
 #talk {
@@ -1029,5 +1029,33 @@ body::-webkit-scrollbar-thumb {
 @media(max-width:380px) {
     .rowBg2 {
         margin-top: 10rem !important;
+    }
+}
+
+
+#animationWindow {
+    width: 50%;
+    height: 50%;
+    padding-top: 6rem;
+    padding-left: 10rem;
+}
+
+.scrollS {
+    padding-left: 10rem !important;
+}
+
+.hidden-element {
+    display: block;
+    position: absolute;
+    top: 600px;
+
+}
+
+@media(max-width:768px) {
+    #animationWindow {
+        width: 100%;
+        height: 100%;
+        padding-top: 6rem;
+        padding-left: 0rem;
     }
 }

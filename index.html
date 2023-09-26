@@ -85,11 +85,11 @@
         </div>
     <!-- hero ends -->
         <div id="main">
-          <p class="hea1 text-center  mt-5 secondcontent" data-aos="fade-up" data-aos-duration="1500">
+          <p class="hea1 text-center  mt-5 mb-0 secondcontent" >
             A layer of AI in your Clinician’s and Clients journey
           </p>
           <!-- horizontal scrolling section -->
-          <div id="process-wrap">
+          <!-- <div id="process-wrap">
             <div id="process" class="horizontal-container">
               <section class="horz">
                 <div class="wrap">
@@ -209,10 +209,17 @@
               </section>
             </div>
 
-          </div>
+          </div> -->
             <!-- horizontal scrolling section -->
 
-            <!-- mobile section starts -->
+            <div class=" scrollS d-block ">
+              <div id="animationWindow">
+              
+              </div>
+             
+                      
+            </div>
+    <!-- mobile section starts -->
           
           <div class="row mb-2 mt-5 pt-5 rowBg2">
             <p class="hea1 text-center my-4" >
@@ -625,6 +632,19 @@
   </div>
   <!-- main container ends -->
 
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.6/lottie.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/ScrollLottie.js"></script>
+  <script>
+      ScrollLottie({
+   target: '#animationWindow',
+   path: "./Automynd.json", 
+   duration: 15, 
+   speed: 'slow'
+  })
+  </script>
   <!-- bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -653,24 +673,24 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
 
 
+ 
+<!-- for herosection -->
   <script>
-    // Get a reference to the HTML container
-    const animationContainer = document.getElementById("animationContainer");
+// Configure Lottie options (optional)
+// Configure Lottie options (optional)
+let animationContainer=document.getElementById('animationContainer');
+const animationOptions = {
+  container: animationContainer, // The HTML element to render the animation in
+  renderer: "svg", // You can choose 'svg', 'canvas', or 'html' based on your preference
+  loop: true, // Set to true if you want the animation to loop
+  autoplay: true, // Set to true if you want the animation to start automatically
+  path: "./HeroAnimation.json", // Path to your JSON animation file
+  animationSpeed: 0.5, // Set the animation speed to 0.5 (half speed)
+};
 
-    // Specify the path to your JSON animation file
-    const animationData = "./HeroAnimation.json";
+// Create a Lottie animation instance
+const anim = lottie.loadAnimation(animationOptions);
 
-    // Configure Lottie options (optional)
-    const animationOptions = {
-      container: animationContainer, // The HTML element to render the animation in
-      renderer: "svg", // You can choose 'svg', 'canvas', or 'html' based on your preference
-      loop: true, // Set to true if you want the animation to loop
-      autoplay: true, // Set to true if you want the animation to start automatically
-      path: animationData, // Path to your JSON animation file
-    };
-
-    // Create a Lottie animation instance
-    const anim = lottie.loadAnimation(animationOptions);
   </script>
 </body>
 
