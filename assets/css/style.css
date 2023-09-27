@@ -1067,3 +1067,7 @@ body::-webkit-scrollbar-thumb {
         height: 100%;
     }
 }
+
+#animationWindow {
+    top: 20% !important;
+}
