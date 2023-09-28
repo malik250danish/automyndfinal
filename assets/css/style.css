@@ -1047,7 +1047,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .scrollS {
-    padding-left: 10rem !important;
+    /* padding-left: 10rem !important; */
+}
+
+.pin-spacer {
+    margin: auto !important;
 }
 
 .hidden-element {
@@ -1077,4 +1081,10 @@ body::-webkit-scrollbar-thumb {
 #animationWindow {
     top: 20% !important;
     bottom: 20%;
+}
+
+@media(min-width:1400px) {
+    .pa1 {
+        width: 50%;
+    }
 }
