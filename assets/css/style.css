@@ -1041,10 +1041,15 @@ body::-webkit-scrollbar-thumb {
 
 #animationWindow {
     width: 50%;
-    height: 50%;
+    height: 80%;
     padding-top: 3rem;
     padding-left: 0rem;
     /* padding: 0px !important; */
+}
+
+#animationWindow {
+    width: 80% !important;
+    height: 80% !important;
 }
 
 .scrollS {
