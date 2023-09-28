@@ -1076,4 +1076,5 @@ body::-webkit-scrollbar-thumb {
 
 #animationWindow {
     top: 20% !important;
+    bottom: 20%;
 }
